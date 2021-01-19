@@ -51,8 +51,8 @@ body{
     font-size: 16px;
 }
 
-.bgcolor-primary{
-    background-color: var(--color-primary);
+.navBg{
+    background-color: #ad3232;
 }
 
 
