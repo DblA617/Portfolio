@@ -99,6 +99,7 @@ body{
     width: 100px !important;
 }
 
+
 /* site-main */
 
 
@@ -140,3 +141,14 @@ body{
 }
 
 /* #site-main */
+
+.form-floating{
+    height: 20px;
+    width: 400px 30px;
+    padding: 20%;
+    
+}
+#comment-submit{
+    background: rgb(248, 183, 248);
+    
+}
