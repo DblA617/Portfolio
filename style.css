@@ -11,10 +11,10 @@ body{
     flex-direction: row;
 
 }
-body, html{
-    
+/* body, html{
+
     /* overflow: hidden!important; */
-}
+ */
 :root{
     --color-primary: #ad3232;
     --color-secondary: #ffffff;
