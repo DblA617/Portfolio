@@ -5,9 +5,18 @@ body{
     margin: 0;
     padding: 0;
 }
+#cards{
+    display: flex;
+    margin: 0 0 0 190px;
+    flex-direction: row;
 
+}
+body, html{
+    
+    /* overflow: hidden!important; */
+}
 :root{
-    --color-primary: #000000;
+    --color-primary: #ad3232;
     --color-secondary: #ffffff;
     --color-border: #ffffff34;
     --font-staat: 'Staatliches', cursive;
@@ -45,6 +54,7 @@ body{
 .bgcolor-primary{
     background-color: var(--color-primary);
 }
+
 
 /* #global classes */
  /* step four, add header CSS */
@@ -86,14 +96,14 @@ body{
 
 .toggle-left{
     left: 0 !important;
-    width: 1000px !important;
+    width: 100px !important;
 }
 
 /* site-main */
 
 
 .site-banner .banner-area{
-    background: url(https://images.unsplash.com/photo-1468608374703-abdfab03d1bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) no-repeat;
+    background: url(./313054484052201.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -109,12 +119,12 @@ body{
 }
 
 .site-banner .banner-area .author .author-img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    border-radius: 150%;
     margin: auto;
-    background: url(./assets/about.jpg) no-repeat;
-    background-size: 200%;
+    background: url(Me1.jpg) no-repeat;
+    background-size: 75%;
     background-position: 40% 0;
 }
 
@@ -122,6 +132,7 @@ body{
 @media screen and (min-width: 768px){
     .toggle-button{
         display: none;
+        background: rgb(228, 228, 131);
     }
     #header{
         z-index:0;
