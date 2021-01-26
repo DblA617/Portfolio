@@ -59,14 +59,17 @@ body{
 /* #global classes */
  /* step four, add header CSS */
 #header{
-    position: fixed;
+    position: static;
     top: 0;
     left: 0;
-    width: 100%;
-    z-index:1;
+    width: 300px;
+    z-index: 5;
     transition: left .5s ease;
+    display: column;
 }
-
+#contact{
+    z-index: 6;
+}
 #header nav{
     height: 100vh;
 }
@@ -166,14 +169,21 @@ body{
         z-index:0;
     }
 }
-
+.rowed{
+    display: flex;
+}
 /* #site-main */
 
 .img-thumbnail{
-    width: 50%;
-    height: 250px;
-
+    width: 100%;
+    height: auto;
+    /* transform: scale(.25); */
 }
+
+#icons{
+    display: inline;
+}
+
 
 .form-floating{
     height: 20px;
