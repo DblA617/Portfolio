@@ -73,6 +73,8 @@ body{
 #header .site-title .navbar-brand{
     letter-spacing: 2px;
     color: var(--color-secondary);
+    font-family: sans-serif;
+    font-style: oblique;
 }
 
 #header .nav-link{
@@ -99,6 +101,31 @@ body{
     width: 100px !important;
 }
 
+#contact {
+    margin-left: 270px;
+}
+
+#projects {
+    margin-left: 254px;
+    border-top: #ad3232 solid;
+    border-bottom: solid #ad3232;
+}
+#skills {
+    margin-left: 250px;
+    border-top: #ad3232 solid;
+    border-bottom: solid #ad3232;
+}
+#education{
+    margin-left: 250px;
+    border-top: #ad3232 solid;
+    border-bottom: solid #ad3232;
+}
+#resume{
+    margin-left: 250px;
+    border-top: #ad3232 solid;
+    border-bottom: solid #ad3232;
+}
+    
 
 /* site-main */
 
@@ -142,6 +169,12 @@ body{
 
 /* #site-main */
 
+.img-thumbnail{
+    width: 50%;
+    height: 250px;
+
+}
+
 .form-floating{
     height: 20px;
     width: 400px 30px;
@@ -152,4 +185,15 @@ body{
     background: rgb(224, 164, 224);
     
 }
+
+#comment-box{
+ align-self: center;
+ justify-content: baseline ;
+}
+
+#footer{
+    padding: 1%;
+    background-color: rgb(243, 226, 204);
+}
+
 
