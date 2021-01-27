@@ -1,6 +1,5 @@
 /* step two, set up up global CSS variables */
-@import url('https://fonts.googleapis.com/css?family=Oswald|Rambla|Staatliches&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Oswald%7CRambla%7CStaatliches&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -9,21 +8,18 @@ body{
     display: flex;
     margin: 0 0 0 190px;
     flex-direction: row;
-
 }
 /* body, html{
-
     /* overflow: hidden!important; */
  */
 :root{
-    --color-primary: #ad3232;
-    --color-secondary: #ffffff;
+    --color-primary: #AD3232;
+    --color-secondary: #FFFFFF;
     --color-border: #ffffff34;
     --font-staat: 'Staatliches', cursive;
     --font-os:  'Oswald', sans-serif;
     --font-ram: 'Rambla', sans-serif;
 }
-
 /* global classes */
 .font-staat{
     font: normal 400 18px var(--font-staat);
@@ -34,7 +30,6 @@ body{
 .font-ram{
     font: normal bold 18px var(--font-ram);
 }
-
 .font-size-40{
     font-size: 40px;
 }
@@ -50,22 +45,18 @@ body{
 .font-size-16{
     font-size: 16px;
 }
-
 .navBg{
-    background-color: #ad3232;
+    background-color: #AD3232;
 }
-
-
 /* #global classes */
  /* step four, add header CSS */
 #header{
-    position: static;
+    position: fixed;
     top: 0;
     left: 0;
-    width: 300px;
+    width: 100%;
     z-index: 5;
     transition: left .5s ease;
-    display: column;
 }
 #contact{
     z-index: 6;
@@ -79,17 +70,14 @@ body{
     font-family: sans-serif;
     font-style: oblique;
 }
-
 #header .nav-link{
     margin: .7rem 1rem;
     border-bottom: 1px solid var(--color-border);
     text-transform: uppercase;
 }
-
 #header .nav-link:hover{
     color: var(--color-secondary) !important;
 }
-
 #header .toggle-button{
     background: none;
     color: var(--color-primary);
@@ -98,41 +86,34 @@ body{
     right: 20px;
     border: 1px solid var(--color-border);
 }
-
 .toggle-left{
     left: 0 !important;
     width: 100px !important;
 }
-
 #contact {
-    margin-left: 270px;
+    margin-left: 430px;
 }
-
 #projects {
     margin-left: 254px;
-    border-top: #ad3232 solid;
-    border-bottom: solid #ad3232;
+    border-top: #AD3232 solid;
+    border-bottom: solid #AD3232;
 }
 #skills {
-    margin-left: 250px;
-    border-top: #ad3232 solid;
-    border-bottom: solid #ad3232;
+    margin-left: 450px;
+    border-top: #AD3232 solid;
+    border-bottom: solid #AD3232;
 }
 #education{
     margin-left: 250px;
-    border-top: #ad3232 solid;
-    border-bottom: solid #ad3232;
+    border-top: #AD3232 solid;
+    border-bottom: solid #AD3232;
 }
 #resume{
     margin-left: 250px;
-    border-top: #ad3232 solid;
-    border-bottom: solid #ad3232;
+    border-top: #AD3232 solid;
+    border-bottom: solid #AD3232;
 }
-    
-
 /* site-main */
-
-
 .site-banner .banner-area{
     background: url(./313054484052201.jpg) no-repeat;
     background-size: cover;
@@ -140,7 +121,6 @@ body{
     height: 100vh;
     position: relative;
 }
-
 .site-banner .banner-area .author{
     margin: 0;
     position: absolute;
@@ -148,7 +128,6 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 .site-banner .banner-area .author .author-img{
     width: 400px;
     height: 400px;
@@ -158,8 +137,6 @@ body{
     background-size: 75%;
     background-position: 40% 0;
 }
-
-
 @media screen and (min-width: 768px){
     .toggle-button{
         display: none;
@@ -167,43 +144,34 @@ body{
     }
     #header{
         z-index:0;
+        height: 100px;
     }
 }
 .rowed{
     display: flex;
 }
 /* #site-main */
-
 .img-thumbnail{
     width: 100%;
     height: auto;
     /* transform: scale(.25); */
 }
-
 #icons{
     display: inline;
 }
-
-
 .form-floating{
     height: 20px;
     width: 400px 30px;
     padding: 20%;
-    
 }
 #comment-submit{
     background: rgb(224, 164, 224);
-    
 }
-
 #comment-box{
  align-self: center;
  justify-content: baseline ;
 }
-
 #footer{
     padding: 1%;
     background-color: rgb(243, 226, 204);
 }
-
-
