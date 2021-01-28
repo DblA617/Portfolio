@@ -1,5 +1,18 @@
 /* step two, set up up global CSS variables */
 @import url('https://fonts.googleapis.com/css?family=Oswald%7CRambla%7CStaatliches&display=swap');
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
 body{
     margin: 0;
     padding: 0;
@@ -99,7 +112,7 @@ body{
     border-bottom: solid #AD3232;
 }
 #skills {
-    margin-left: 450px;
+    margin-left: 300px;
     border-top: #AD3232 solid;
     border-bottom: solid #AD3232;
 }
