@@ -24,6 +24,9 @@ function toggle_onclick($win, $navbar, width){
     }
 }
 
+$('bootstrap-icon').tooltip('toggle')
+
+
 
 
 
